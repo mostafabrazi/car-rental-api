@@ -11,9 +11,9 @@
     $LOCAL = true;
 
     $host       = 'localhost';
-    $password   = $LOCAL ? 'root' : 'Mostafa2020@'; // S78muWO@dFSOZ
-    $user       = $LOCAL ? 'root' : 'id17298720_demoyouschool'; // youschool
-    $database   = 'id17298720_youschooldemo';
+    $password   = $LOCAL ? 'ssss' : 'test';
+    $user       = $LOCAL ? 'ssss' : 'test';
+    $database   = 'dbtest';
 
     // DB setup
     R::setup('mysql:host=' . $host . ';dbname=' . $database, $user, $password);
